@@ -1,0 +1,27 @@
+group 'com.caihao.dubboconsumer02'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'war'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    // 引入springboot-web
+    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.1.3.RELEASE'
+    // dubbo
+    // https://mvnrepository.com/artifact/com.alibaba/dubbo
+//    compile group: 'com.alibaba', name: 'dubbo', version: '2.6.2'
+    compile group: 'org.apache.dubbo', name: 'dubbo', version: '2.7.3'
+    compile group: 'org.apache.dubbo', name: 'dubbo-dependencies-zookeeper',version: '2.7.3'
+    // provider02's api
+    compile group: 'com.caihao.dubboprovider02', name: 'api', version: '1.0.0'
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1113821137/com.caihao.dubboprovider02.iml" filepath="$PROJECT_DIR$/.idea/modules/1113821137/com.caihao.dubboprovider02.iml" group="com.caihao.dubboprovider02" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/consumer.iml" filepath="$PROJECT_DIR$/.idea/modules/consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/consumer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/consumer_main.iml" group="consumer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/consumer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/consumer_test.iml" group="consumer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-845516949/model.iml" filepath="$PROJECT_DIR$/.idea/modules/-845516949/model.iml" group="com.caihao.dubboprovider02/model" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web.iml" filepath="$PROJECT_DIR$/.idea/modules/web.iml" group="web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web/web_main.iml" filepath="$PROJECT_DIR$/.idea/modules/web/web_main.iml" group="web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web/web_test.iml" filepath="$PROJECT_DIR$/.idea/modules/web/web_test.iml" group="web" />
+    </modules>
+  </component>
+</project>
